@@ -5,11 +5,10 @@
 }
 
 .sidebar__header {
-    height: 55px;
 	display: flex;
 	justify-content: space-between;
-    align-items: center;
-	padding: 20px;
+	align-items: center;
+	padding: 10px;
 	border-right: 1px solid lightgray;
 }
 .sidebar__headerRight {
@@ -48,8 +47,23 @@
 	margin-left: 10px;
 	outline-width: 0;
 }
-.sidebar__chats{
-    flex: 1;
-    background-color: white;
-
+.sidebar__chats {
+	flex: 1;
+	background-color: white;
+}
+.sidebar__searchInput {
+	width: 100%;
+	outline-width: 0;
+	border: none;
+}
+.sidebar__searchContainer > form {
+	border: none;
+}
+.sidebar__header__phone {
+	width: 100%;
+	padding-left: 20px;
+}
+.sidebar__avatar {
+	height: 60px;
+	width: 60px;
 }

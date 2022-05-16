@@ -1,5 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app"
+import { getAuth } from "firebase/auth"
 
 const firebaseConfig = {
 	apiKey: "AIzaSyBq3tcMpyryZ6fJQDdorq5Mg-7_H9fpu9w",
@@ -13,4 +14,10 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig)
 
-export default app
+
+const auth = getAuth();
+auth.useDeviceLanguage() 
+// To apply the default browser preference instead of explicitly setting it.
+// firebase.auth().useDeviceLanguage();
+
+export { app ,auth} 

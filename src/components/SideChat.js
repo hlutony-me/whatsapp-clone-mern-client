@@ -9,7 +9,8 @@ const SideChat = () => {
           <div className="sideChat__info">
               <h2>Room Name</h2>
               <p>This is the last one</p>
-          </div>
+      </div>
+
     </div>
   )
 }

@@ -5,8 +5,8 @@
 }
 
 .chat__header {
-	height: 55px;
-	padding: 20px;
+	height: 61px;
+	padding: 10px;
 	display: flex;
 	align-items: center;
 }
@@ -40,7 +40,7 @@
 	background-color: #ffffff;
 	margin-bottom: 30px;
 }
-.chat__reciever {
+.chat__receiver {
 	margin-left: auto;
 	background-color: #dcf8c6;
 }
